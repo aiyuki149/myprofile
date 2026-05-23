@@ -1,12 +1,7 @@
 const birthdays = [
-	{ name: "to Me", date: "11-23" },
-	{ name: "Inda Karane", date: "09-09" },
-	{ name: "Oyama Mahiro", date: "03-06" },
-	{ name: "Ikaros", date: "12-25" },
-	{ name: "Hatsune Miku", date: "08-31" },
-	{ name: "Furina", date: "10-13" },
+	{ name: "to Me", date: "08-12" }
 ];
-const defaultMessage = "Nếu không phải vì tình yêu, ai muốn trang điểm?";
+const defaultMessage = "Nếu không phải vì tình yêu, ai muốn theo đuổi?";
 function updateTime(data) {
 	const timeElement = document.getElementById("time");
 	const dayElement = document.getElementById("day");
